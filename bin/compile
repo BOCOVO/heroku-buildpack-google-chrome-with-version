@@ -39,8 +39,8 @@ else
 fi
 
 # Detect requested version or default to current
-if [ -f $ENV_DIR/GOOGLE_CHROME_CUSTOM_VERION ]; then
-  custom_version=$(cat $ENV_DIR/GOOGLE_CHROME_CUSTOM_VERION)
+if [ -f $ENV_DIR/GOOGLE_CHROME_CUSTOM_VERSION ]; then
+  custom_version=$(cat $ENV_DIR/GOOGLE_CHROME_CUSTOM_VERSION)
 else
   custom_version=current
 fi
